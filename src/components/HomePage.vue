@@ -38,7 +38,7 @@
                 <p class="text-xl md:text-4xl font-wedding text-white">Wedding</p>
             </div>
             <div class="">
-                <div class="blob w-44 md:w-80">
+                <div class="blob w-20 md:w-50">
                 <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
                     <!-- <defs>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="w-full md:w-1/2 block md:hidden">
                         <div class="w-full relative z-0">
-                            <img src="@/assets/iwan.jpg" alt="" class="rounded-lg shadow-xl shadow-black-500">
+                            <img src="@/assets/wery1.png" alt="" class="rounded-lg shadow-xl shadow-black-500">
                             <div class="">
                                 <div class="blob-2 w-56 md:w-80">
                                     <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
@@ -204,7 +204,7 @@
             <div class="w-full md:w-3/4 mt-16">
                 <div class="mt-14 flex flex-col md:flex-row items-center justify-center">
                     <div class="w-full md:w-2/4 hidden md:block">
-                        <img src="@/assets/fotojongkok.jpg" class="w-full rounded-lg shadow-lg shadow-black-500">
+                        <img src="@/assets/wery1.png" class="w-full rounded-lg shadow-lg shadow-black-500">
                     </div>
                     <div class="w-full md:w-2/4 text-gray-700">
                         <h2 class="font-wedding text-5xl">Lamaran<span class="text-pink-500"></span> </h2>
@@ -216,7 +216,7 @@
                         </p>
                     </div>
                     <div class="w-full md:w-2/4 block md:hidden">
-                        <img src="@/assets/fotojongkok.jpg" class="w-full rounded-lg shadow-lg shadow-black-500">
+                        <img src="@/assets/wery1.png" class="w-full rounded-lg shadow-lg shadow-black-500">
                     </div>
                 </div>
             </div>
@@ -473,8 +473,16 @@ export default {
     .bg-wedding {
         background: url('@/assets/banner.JPG') no-repeat center;
         background-size: cover;
-        height: 40rem;
+        height: 12rem;
     }
+
+    /* breakpoint */
+    @media only screen and (min-width: 768px) {
+        .bg-wedding { 
+            height: 30rem;
+        }
+    }
+
 
     .font-wedding {
         font-family: 'Great Vibes';
