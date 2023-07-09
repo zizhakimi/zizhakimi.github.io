@@ -135,11 +135,10 @@
         <div class="text-center p-8 section-3 flex flex-col md:flex-row justify-center">
             <div class="text-white w-full md:w-2/4 p-8 text-center rounded-lg backdrop-blur-sm bg-white/40">
                 <p class="drop-shadow-lg">Dear{{ getCaller }},</p>
-                <h1 class="mt-5 drop-shadow-lg"><span class="font-wedding text-wedding text-semibold text-5xl">{{ name }}</span></h1>
-                
+                <h1 class="mt-5 drop-shadow-lg"><span class="font-wedding text-semibold text-5xl">{{ name }}</span></h1>
                 <hr>
                 <p class="drop-shadow-lg my-5">
-                    Tanpa mengurangi rasa hormat, izinkan kami mengundang dan berbagi momen paling 
+                    Tanpa mengurangi rasa hormat, izinkan kami mengundang dan berbagi momen paling
                     berbahagia untuk menghadiri resepsi pernikahan kami melalui undangan :
                 </p>
                 
@@ -154,9 +153,9 @@
                 <h3>  <span class="font-bold text-1xl">  Jl Percetakan Negara VII No. 14 Jakarta Pusat"</span> <br><br> </h3>
 
                 <h4 class="font-wedding text-5xl mt-16 tex- wedding">
-                    <font-awesome-icon icon="fa-solid fa-ellipsis" />
-                    <span class="mx-8">Resepsi</span> 
-                    <font-awesome-icon icon="fa-solid fa-ellipsis" />
+                    <!-- <font-awesome-icon icon="fa-solid fa-ellipsis" /> -->
+                    <span class="mx-8">Resepsi.</span> 
+                    <!-- <font-awesome-icon icon="fa-solid fa-ellipsis" /> -->
                 </h4>
                 <p>  <span class="font-bold text-1xl">Jam 11.00 Minggu, 6 Agustus 2023</span> <br><br> </p>
                 <h5>  <span class="font-bold text-1xl">Bertempat di : </span> <br><br> </h5>
@@ -401,7 +400,7 @@ export default {
         },
         openInvitation() {
             this.opened = true
-            this.audio.src = require("../assets/Ungu - saat bahagia.mp3")
+            this.audio.src = require("../assets/amin_paling_serius.mp3")
             this.audio.volume = 0.1
             this.onMusic()
 
