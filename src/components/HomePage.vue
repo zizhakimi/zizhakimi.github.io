@@ -204,7 +204,7 @@
             <div class="w-full md:w-3/4 mt-16">
                 <div class="mt-14 flex flex-col md:flex-row items-center justify-center">
                     <div class="w-full md:w-2/4 hidden md:block">
-                        <img src="@/assets/wery1.png" class="w-full rounded-lg shadow-lg shadow-black-500">
+                        <img src="@/assets/fotojongkok.jpg" class="w-full rounded-lg shadow-lg shadow-black-500">
                     </div>
                     <div class="w-full md:w-2/4 text-gray-700">
                         <h2 class="font-wedding text-5xl">Lamaran<span class="text-pink-500"></span> </h2>
@@ -216,7 +216,7 @@
                         </p>
                     </div>
                     <div class="w-full md:w-2/4 block md:hidden">
-                        <img src="@/assets/wery1.png" class="w-full rounded-lg shadow-lg shadow-black-500">
+                        <img src="@/assets/fotojongkok.jpg" class="w-full rounded-lg shadow-lg shadow-black-500">
                     </div>
                 </div>
             </div>
