@@ -157,7 +157,8 @@
                     <span class="mx-8">Resepsi.</span> 
                     <!-- <font-awesome-icon icon="fa-solid fa-ellipsis" /> -->
                 </h4>
-                <p>  <span class="font-bold text-1xl">Jam 11.00 Minggu, 6 Agustus 2023</span> <br><br> </p>
+                <p>  <span class="font-bold text-1xl">Jam 11.00 s.d 16.00</span> </p>
+                <p>  <span class="font-bold text-1xl">Minggu, 6 Agustus 2023</span> <br><br> </p>
                 <h5>  <span class="font-bold text-1xl">Bertempat di : </span> <br><br> </h5>
                 <h5>  <span class="font-bold text-1xl">Balai Warga RW 04 Rawasari, Jakarta Pusat"</span> <br><br> </h5>
                 <h5>  <span class="font-bold text-1xl">Jl. Percetakan Negara IX A No.75, RT.5/RW.4,
